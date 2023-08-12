@@ -1,3 +1,4 @@
+/* Header Container ------------------- */
 .headContainer{
     display: flex;
     flex-direction: column;
@@ -7,6 +8,7 @@
     justify-content: center;
 }
 
+/* NAVBAR ---------------------- */
 .navContainer{
     display: flex;
     justify-content: center;
@@ -32,9 +34,9 @@
     color: #f9faf8;
 }
 
+/* IMAGE ----------------------- */
 .imageContainer{
     display: flex;
-
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
@@ -43,4 +45,158 @@
 #headshot{
     border-radius: 50%;
     border: solid #e5e7eb 5px;
+}
+
+/* BODY --------------------- */
+.bodyContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ABOUT SECTION */
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #98B4D4;
+    color: #1f2937;
+    padding-bottom: 5em;
+}
+
+.aboutDescrib{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50%;
+    padding: 0px 20% 2% 20%;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+/* ABOUT LIST ------------------ */
+
+.aboutList{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    font-size: large;
+}
+
+.aboutList img{
+    height: 10em;
+}
+
+.all-list{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.all-list li{
+    list-style-type: none;
+}
+
+/* PROJECTS ------------------- */
+.projectsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10% 0px 10% 0px;
+}
+
+.project{
+    display: flex;
+    height: 10em;
+    width: 10em;
+    border: solid #1f2937 3px;
+    border-radius: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.project a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.pj1{
+    background-color: #1974D2;
+}
+
+.pj2{
+    background-color: #FFAA1D;
+}
+
+.pj3{
+    background-color: #66FF00;
+}
+
+.pj4{
+    background-color: #F12424;
+}
+
+
+/* CONNECT -------------- */
+.connectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #98B4D4;
+    height: 35em;
+}
+
+.connect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10em;
+    list-style-type: none;
+    background-color: #1974D2;
+    /* height: 4em; */
+    padding: 2% 10% 2% 10%;
+    border-radius: 10px;
+}
+
+.connect a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+#connectForm{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#connectForm input{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 97%;
+    padding: 12px;
+}
+
+#connectForm textarea{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* FOOTER --------------------- */
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    padding: 2% 10% 2% 10%;
+    color: #e5e7eb;
+
 }
