@@ -151,7 +151,8 @@
     align-items: center;
     flex-direction: column;
     background-color: #98B4D4;
-    height: 35em;
+    height: 35%;
+    padding: 2% 0px 2% 0px;
 }
 
 .connect{
@@ -160,7 +161,7 @@
     align-items: center;
     gap: 10em;
     list-style-type: none;
-    background-color: #1974D2;
+    background-color: #1f2937;
     /* height: 4em; */
     padding: 2% 10% 2% 10%;
     border-radius: 10px;
@@ -191,6 +192,14 @@
     border-radius: 5px;
 }
 
+#submitBtn{
+    background-color: #1974D2;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 5px;
+    padding: 1em 2em 1em 2em;
+    font-size: large;
+}
 
 /* FOOTER --------------------- */
 footer{
