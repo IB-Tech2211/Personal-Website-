@@ -1,3 +1,11 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #98B4D4;
+}
+
+
+
 /* Header Container ------------------- */
 .headContainer{
     display: flex;
@@ -6,6 +14,7 @@
     color: #f9faf8;
     padding: 0px 5% 2% 5%;
     justify-content: center;
+    position: sticky;
 }
 
 /* NAVBAR ---------------------- */
@@ -51,6 +60,8 @@
 .bodyContainer{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    max-width: 50%;
 }
 
 /* ABOUT SECTION */
@@ -62,6 +73,7 @@
     background-color: #98B4D4;
     color: #1f2937;
     padding-bottom: 5em;
+    border-bottom: 2px solid gray;
 }
 
 .aboutDescrib{
@@ -89,6 +101,7 @@
 
 .aboutList img{
     height: 10em;
+    width: 10em;
 }
 
 .all-list{
@@ -153,6 +166,10 @@
     background-color: #98B4D4;
     height: 35%;
     padding: 2% 0px 2% 0px;
+    width: 70%;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+
 }
 
 .connect{
@@ -161,7 +178,6 @@
     align-items: center;
     gap: 10em;
     list-style-type: none;
-    background-color: #1f2937;
     /* height: 4em; */
     padding: 2% 10% 2% 10%;
     border-radius: 10px;
